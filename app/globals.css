@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.gridContainer{
+  display: grid;
+  padding: 2%;
+  grid-template-columns: repeat(5, 1fr) ;
+  grid-template-rows: repeat(4, 10em);
+  column-gap: 2%;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
